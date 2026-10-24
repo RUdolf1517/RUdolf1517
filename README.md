@@ -62,20 +62,22 @@ install in one line, start in milliseconds and explain themselves when they fail
 ![nginx](https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![systemd](https://img.shields.io/badge/systemd-111111?style=flat-square&logo=linux&logoColor=white)
 
-## Numbers
-
-<div align="center">
+## Commit activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=RUdolf1517&show_icons=true&hide_border=true&hide_rank=true&include_all_commits=true&theme=github_dark&icon_color=6EE7B7">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=RUdolf1517&show_icons=true&hide_border=true&hide_rank=true&include_all_commits=true&icon_color=2563EB" alt="GitHub stats">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RUdolf1517/RUdolf1517/main/assets/commits-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RUdolf1517/RUdolf1517/main/assets/commits-light.svg">
+  <img src="https://raw.githubusercontent.com/RUdolf1517/RUdolf1517/main/assets/commits-dark.svg" alt="Commits over the last 12 months" width="100%">
 </picture>
+
+<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=RUdolf1517&layout=compact&hide_border=true&hide=html,css,shell,tex&langs_count=6&theme=github_dark">
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RUdolf1517&layout=compact&hide_border=true&hide=html,css,shell,tex&langs_count=6" alt="Top languages">
 </picture>
-
 </div>
+
+<sub>The card is generated from the GitHub GraphQL API by <a href="scripts/gen_stats.py">scripts/gen_stats.py</a> and refreshed every Monday by a scheduled workflow — numbers are as of the last run, not a live counter.</sub>
 
 ---
 
