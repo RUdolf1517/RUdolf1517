@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Rudolf Zinovev — systems and web developer</title>
+  <desc id="d">Banner with a terminal demoing the tummler converter CLI and the KOMP voice assistant.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F5F8FC"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#26344A"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F59E6B" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#F59E6B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4F8DF7" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#4F8DF7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="21" height="21" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.05" fill="#DCE4EF" fill-opacity="0.8"/>
+    </pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="998" height="298" rx="22"/></clipPath>
+    <filter id="lift" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="9" stdDeviation="13" flood-color="#94A3B8" flood-opacity="0.20"/>
+    </filter>
+    <style>
+      .caret { animation: blink 1.15s steps(1, end) infinite; }
+      .pulse { animation: pulse 3.6s ease-in-out infinite; }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes pulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.9; } }
+      @media (prefers-reduced-motion: reduce) { .caret, .pulse { animation: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#dots)"/>
+    <ellipse cx="110" cy="-10" rx="360" ry="240" fill="url(#glowA)"/>
+    <ellipse cx="930" cy="310" rx="330" ry="220" fill="url(#glowB)"/>
+    <rect width="1000" height="2.4" fill="url(#name)" opacity="0.85"/>
+
+    <circle class="pulse" cx="59" cy="80" r="4.2" fill="#F59E6B"/>
+    <text x="73" y="84" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="3.4" fill="#C2643A">HELLO, I&#8217;M</text>
+
+    <text x="54" y="140" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.3" fill="url(#name)">Rudolf Zinovev</text>
+    <text x="56" y="182" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#5A6B80">Systems &amp; web developer — small tools, sharp edges.</text>
+
+    <g>
+      <rect x="56.0" y="230" width="97.4" height="28" rx="14.0" fill="#FFFFFF" stroke="#DCE4EF" stroke-width="1"/>
+      <circle cx="70.0" cy="244.0" r="3" fill="#F0A87B"/>
+      <text x="111.7" y="248.1" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.0" fill="#33445B">tummler</text>
+    </g>    <g>
+      <rect x="162.4" y="230" width="73.7" height="28" rx="14.0" fill="#FFFFFF" stroke="#DCE4EF" stroke-width="1"/>
+      <circle cx="176.4" cy="244.0" r="3" fill="#F0A87B"/>
+      <text x="206.3" y="248.1" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.0" fill="#33445B">KOMP</text>
+    </g>    <g>
+      <rect x="245.1" y="230" width="89.5" height="28" rx="14.0" fill="#FFFFFF" stroke="#DCE4EF" stroke-width="1"/>
+      <circle cx="259.1" cy="244.0" r="3" fill="#F0A87B"/>
+      <text x="296.9" y="248.1" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.0" fill="#33445B">bulboz</text>
+    </g>
+
+    <g filter="url(#lift)">
+      <rect x="576" y="50" width="368" height="186" rx="14" fill="#0C131D" stroke="#D8E0EA" stroke-width="1"/>
+    </g>
+    <path d="M576 83 h368" stroke="#D8E0EA" stroke-width="1"/>
+    <circle cx="597" cy="66.5" r="4" fill="#FF5F57" opacity="0.92"/>
+    <circle cx="614" cy="66.5" r="4" fill="#FEBC2E" opacity="0.92"/>
+    <circle cx="631" cy="66.5" r="4" fill="#28C840" opacity="0.92"/>
+    <text x="926" y="70" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#7C8CA1">zsh</text>
+      <text x="600" y="126" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" xml:space="preserve"><tspan fill="#F0A87B">$</tspan> <tspan fill="#D7E2EF">tummler photo.png webp</tspan></text>
+      <text x="600" y="149" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" xml:space="preserve"><tspan fill="#6EE7B7">12 files · 48 MB → 11 MB</tspan> <tspan fill="#7C8CA1">(−77%)</tspan></text>
+      <text x="600" y="182" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" xml:space="preserve"><tspan fill="#F0A87B">$</tspan> <tspan fill="#D7E2EF">komp --listen</tspan></text>
+      <text x="600" y="205" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" xml:space="preserve"><tspan fill="#7C8CA1">wake word</tspan> <tspan fill="#D7E2EF">«комп»</tspan>  <tspan fill="#6EE7B7">●</tspan> <tspan fill="#7C8CA1">ready</tspan></text>
+    <rect class="caret" x="808" y="199" width="6" height="13.5" fill="#F0A87B" opacity="0.9"/>
+  </g>
+  <rect x="1" y="1" width="998" height="298" rx="22" fill="none" stroke="#E1E8F1" stroke-width="1"/>
+</svg>
