@@ -22,7 +22,7 @@ install in one line, start in milliseconds and explain themselves when they fail
 
 | Project | What it is | Built with |
 | :--- | :--- | :--- |
-| **[tummler](https://github.com/RUdolf1517/tummler)** <br><sub>Yiddish: *the one who stirs things up*</sub> | One CLI that mixes any file into any format — images, audio, video, documents, spreadsheets, archives. Format last: `tummler photo.png webp`. Native builds for macOS, Linux and Windows, plus Homebrew, apt, dnf and winget packages. | `Rust` `clap` `image` `ffmpeg` |
+| **[tummler](https://github.com/RUdolf1517/tummler)** | One CLI that mixes any file into any format — images, audio, video, documents, spreadsheets, archives. Format last: `tummler photo.png webp`. Native builds for macOS, Linux and Windows, plus Homebrew, apt, dnf and winget packages. | `Rust` `clap` `image` `ffmpeg` |
 | **[KOMP](https://github.com/RUdolf1517/KOMP)** | Offline RU/EN voice assistant that answers to «комп»: TOML plugins and scenarios, local cloned-voice TTS, optional LM Studio fallback. A daemon with an SSE/WebSocket API and a Tauri desktop app on top. | `Rust` `Tokio` `axum` `Tauri` `Vosk` |
 | **[schematoz-bulboz.org](https://github.com/RUdolf1517/schematoz-bulboz.org)** | Kombucha tamagotchi: grow a scoby, catch mutations, play mini-games, trade on the market. Async Flask on ASGI, ~100 tests against a real PostgreSQL, one-command production deploy. | `Python` `Flask` `SQLAlchemy` `PostgreSQL` `Redis` |
 | **[KremleXYZ-Detect](https://github.com/RUdolf1517/KremleXYZ-Detect)** | A captcha that keeps Yandex Browser traffic out, asking ЕГЭ questions instead. Drop-in package for Flask, Django and FastAPI, plus a React widget. | `Python` `TypeScript` `React` |
