@@ -10,15 +10,6 @@
 <a href="mailto:rudolfzinovev@protonmail.com"><img src="https://img.shields.io/badge/write%20me-0B1220?style=flat-square&logo=protonmail&logoColor=white" alt="Email"></a>
 <a href="https://github.com/RUdolf1517?tab=followers"><img src="https://img.shields.io/github/followers/RUdolf1517?style=flat-square&labelColor=0B1220&color=0B1220&logo=github&logoColor=white" alt="Followers"></a>
 
-<br><br>
-
-<sub><b>builds</b> &nbsp; tummler
-<a href="https://github.com/RUdolf1517/tummler/releases/latest"><img src="https://img.shields.io/github/v/release/RUdolf1517/tummler?style=flat-square&label=tummler&labelColor=0B1220&color=2EA043" alt="tummler latest release version"></a>
-<a href="https://github.com/RUdolf1517/tummler/actions/workflows/ci.yml"><img src="https://github.com/RUdolf1517/tummler/actions/workflows/ci.yml/badge.svg" alt="tummler continuous integration status" valign="middle"></a>
-&nbsp; kremle-detect
-<a href="https://github.com/RUdolf1517/KremleXYZ-Detect/actions/workflows/ci.yml"><img src="https://github.com/RUdolf1517/KremleXYZ-Detect/actions/workflows/ci.yml/badge.svg" alt="kremle-detect continuous integration status" valign="middle"></a>
-</sub>
-
 </div>
 
 **Rust & Python.** Small tools with sharp edges: file converters, an offline voice
