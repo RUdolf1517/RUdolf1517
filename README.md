@@ -78,9 +78,3 @@ install in one line, start in milliseconds and explain themselves when they fail
 </div>
 
 <sub>Cards are generated in-repo: <a href="scripts/gen_banner.py">scripts/gen_banner.py</a> draws the banner, <a href="scripts/gen_stats.py">scripts/gen_stats.py</a> pulls the commit numbers from the GitHub GraphQL API and is refreshed every Monday by a scheduled workflow — so the figures are as of the last run, not a live counter.</sub>
-
----
-
-<div align="center">
-<sub><b>tummler</b> (טומלער) is Yiddish for <i>the one who stirs things up</i> — a mentsh with a mixing glass.</sub>
-</div>

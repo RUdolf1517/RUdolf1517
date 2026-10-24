@@ -49,7 +49,7 @@ THEMES = {
 }
 
 PX = 56
-TX, TY, TW, TH = 576, 50, 368, 232
+TX, TY, TW, TH = 576, 78, 368, 170
 EYEBROW_Y = 78
 NAME_Y, TAG_Y = 138, 178
 RULE_Y = 200
@@ -90,10 +90,8 @@ def banner(name: str) -> str:
     lines = [
         (f'<tspan fill="{t["term_amber"]}">$</tspan> <tspan fill="{t["term_text"]}">tummler photo.png webp</tspan>', 64),
         (f'<tspan fill="{t["term_green"]}">12 files · 48 MB → 11 MB</tspan> <tspan fill="{t["term_muted"]}">(−77%)</tspan>', 85),
-        (f'<tspan fill="{t["term_amber"]}">$</tspan> <tspan fill="{t["term_text"]}">tummler -i</tspan>', 112),
-        (f'<tspan fill="{t["term_amber"]}" direction="rtl">טומלער</tspan> <tspan fill="{t["term_text"]}">— the one who stirs things up</tspan>', 133),
-        (f'<tspan fill="{t["term_amber"]}">$</tspan> <tspan fill="{t["term_text"]}">komp --listen</tspan>', 160),
-        (f'<tspan fill="{t["term_muted"]}">wake word</tspan> <tspan fill="{t["term_text"]}">«комп»</tspan>  <tspan fill="{t["term_green"]}">●</tspan> <tspan fill="{t["term_muted"]}">ready</tspan>', 181),
+        (f'<tspan fill="{t["term_amber"]}">$</tspan> <tspan fill="{t["term_text"]}">komp --listen</tspan>', 122),
+        (f'<tspan fill="{t["term_muted"]}">wake word</tspan> <tspan fill="{t["term_text"]}">«комп»</tspan>  <tspan fill="{t["term_green"]}">●</tspan> <tspan fill="{t["term_muted"]}">ready</tspan>', 143),
     ]
     term_lines = "\n".join(
         f'      <text x="{TX + 24}" y="{TY + dy}" font-family="{MONO}" font-size="12.5" xml:space="preserve" '
@@ -103,7 +101,7 @@ def banner(name: str) -> str:
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-labelledby="t d">
   <title id="t">Rudolf Zinovev — systems and web developer</title>
-  <desc id="d">Banner with a Yiddish proverb — a person plans, and God laughs — and a terminal demoing the tummler converter CLI, whose name is Yiddish for the one who stirs things up, and the KOMP voice assistant.</desc>
+  <desc id="d">Banner with a Yiddish proverb — a person plans, and God laughs — and a terminal demoing the tummler converter CLI and the KOMP voice assistant.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="{t['bg0']}"/><stop offset="1" stop-color="{t['bg1']}"/>
@@ -163,7 +161,7 @@ def banner(name: str) -> str:
     <circle cx="{TX + 55}" cy="{TY + 16.5}" r="4" fill="#28C840" opacity="0.92"/>
     <text x="{TX + TW - 18}" y="{TY + 20}" text-anchor="end" font-family="{MONO}" font-size="10.5" fill="{t['term_muted']}">zsh</text>
 {term_lines}
-    <rect class="caret" x="{TX + 219}" y="{TY + 175}" width="6" height="13.5" fill="{t['term_amber']}" opacity="0.9"/>
+    <rect class="caret" x="{TX + 215}" y="{TY + 137}" width="6" height="13.5" fill="{t['term_amber']}" opacity="0.9"/>
   </g>
   <rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="22" fill="none" stroke="{t['border']}" stroke-width="1"/>
 </svg>
