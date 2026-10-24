@@ -29,27 +29,7 @@ API = "https://api.github.com/graphql"
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets"
 
-SANS = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
-MONO = "'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
-
-THEMES = {
-    "dark": dict(
-        bg0="#0A0E15", bg1="#0C1220", border="#1D2837",
-        dot="#1A2433", dot_op="0.55",
-        amber="#F0A87B", amber_op="0.16", blue="#4F8DF7", blue_op="0.14",
-        text="#FFFFFF", text_soft="#C3D2E4", muted="#7C8CA1", label="#5C6B7F",
-        bar="#33465F", bar_accent="#F0A87B", stub="#222F40",
-        hair="#1D2837",
-    ),
-    "light": dict(
-        bg0="#FFFFFF", bg1="#F5F8FC", border="#E1E8F1",
-        dot="#DCE4EF", dot_op="0.8",
-        amber="#F59E6B", amber_op="0.20", blue="#4F8DF7", blue_op="0.13",
-        text="#0B1220", text_soft="#33445B", muted="#6B7C92", label="#8595A8",
-        bar="#A9BBD2", bar_accent="#D98250", stub="#DDE6F0",
-        hair="#E1E8F1",
-    ),
-}
+from theme import MONO, SANS, THEMES  # noqa: E402
 
 W, H = 1000, 250
 MONTHS_BACK = 12
