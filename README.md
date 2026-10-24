@@ -29,44 +29,6 @@ install in one line, start in milliseconds and explain themselves when they fail
 
 <sub>Also: **[pi-clock](https://github.com/RUdolf1517/pi-clock)** — a terminal clock that shows the time as fractions of π.</sub>
 
-## A Yiddish note
-
-The name of my main tool is Yiddish. **tummler** (טומלער) is *the one who stirs things up* —
-in the Catskills resorts that was a job: the person who introduced the guests, warmed up the
-room and kept the evening alive before the show. The verb behind it, *tummeln*, means to bustle
-and make noise. A file converter does the same thing to formats, and there is a quieter echo in
-*tumbler*, the mixing glass.
-
-| Word | What it means | Where it shows up |
-| :--- | :--- | :--- |
-| **mentsh** (מענטש) | a decent, upright person — "be a mentsh" | What I want from software: does the job, explains itself, doesn't waste your time |
-| **tummler** (טומלער) | the one who stirs things up, the MC of the room | [tummler](https://github.com/RUdolf1517/tummler), the CLI |
-| **chutzpah** (חוצפה) | nerve, gall — audacity with a straight face | [KremleXYZ-Detect](https://github.com/RUdolf1517/KremleXYZ-Detect): a captcha that hands Yandex Browser users an ЕГЭ maths problem |
-
-> דער מענטש טראַכט און גאָט לאַכט
->
-> *Der mentsh trakht un Got lakht* — a person plans, and God laughs.
-
-The most honest motto there is for someone who ships software: you write the roadmap, the
-compiler has other ideas. You keep planning anyway — the laughter is part of the deal.
-
-The name is not decoration. The CLI explains it itself:
-
-```console
-$ tummler -i
-tummler v0.4.0 — טומלער
-
-Yiddish tummler (טומלער): "the one who stirs things up."
-In the Catskills resorts the tummler mixed the guests —
-introduced them, got the room going, kept the night alive.
-Also a nod to tumbler, the mixing glass.
-
-This CLI does the same to files: mix any format into any other.
-```
-
-One rule I took from all of this: a tool should introduce itself — what it is, where the name
-comes from, what it will do to your files — before it touches anything.
-
 ## Stack
 
 **Languages**&nbsp;&nbsp;
