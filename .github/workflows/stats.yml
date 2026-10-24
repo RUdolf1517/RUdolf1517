@@ -1,4 +1,4 @@
-name: stats
+name: stats cards
 
 on:
   schedule:
@@ -22,19 +22,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Regenerate commit card
+      - name: Regenerate cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/gen_stats.py
+        run: |
+          python3 scripts/gen_stats.py
+          python3 scripts/gen_langs.py
 
       - name: Commit if the numbers moved
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- assets/commits-dark.svg assets/commits-light.svg; then
-            echo "No change in commit data, nothing to do."
+          if git diff --quiet -- assets/commits-dark.svg assets/commits-light.svg \
+                                 assets/langs-dark.svg assets/langs-light.svg; then
+            echo "No change in the data, nothing to do."
             exit 0
           fi
-          git add assets/commits-dark.svg assets/commits-light.svg
-          git commit -m "Refresh commit activity card"
+          git add assets/commits-dark.svg assets/commits-light.svg \
+                  assets/langs-dark.svg assets/langs-light.svg
+          git commit -m "Refresh stats cards"
           git push

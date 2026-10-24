@@ -12,8 +12,8 @@
 
 </div>
 
-**Rust & Python.** I build small tools with sharp edges: file converters, an offline
-voice assistant, web services that stay boring under load. I like programs that
+**Rust & Python.** Small tools with sharp edges: file converters, an offline voice
+assistant, web services that stay boring under load. The kind of programs that
 install in one line, start in milliseconds and explain themselves when they fail.
 
 ---
@@ -28,6 +28,15 @@ install in one line, start in milliseconds and explain themselves when they fail
 | **[KremleXYZ-Detect](https://github.com/RUdolf1517/KremleXYZ-Detect)** | A captcha that keeps Yandex Browser traffic out, asking ЕГЭ questions instead. Drop-in package for Flask, Django and FastAPI, plus a React widget. | `Python` `TypeScript` `React` |
 
 <sub>Also: **[pi-clock](https://github.com/RUdolf1517/pi-clock)** — a terminal clock that shows the time as fractions of π.</sub>
+
+<p align="center">
+<sub><b>Green builds</b> &nbsp; tummler
+<a href="https://github.com/RUdolf1517/tummler/actions/workflows/ci.yml"><img src="https://github.com/RUdolf1517/tummler/actions/workflows/ci.yml/badge.svg" alt="tummler continuous integration status" valign="middle"></a>
+<a href="https://github.com/RUdolf1517/tummler/actions/workflows/release.yml"><img src="https://github.com/RUdolf1517/tummler/actions/workflows/release.yml/badge.svg" alt="tummler release status" valign="middle"></a>
+&nbsp; kremle-detect
+<a href="https://github.com/RUdolf1517/KremleXYZ-Detect/actions/workflows/ci.yml"><img src="https://github.com/RUdolf1517/KremleXYZ-Detect/actions/workflows/ci.yml/badge.svg" alt="kremle-detect continuous integration status" valign="middle"></a>
+</sub>
+</p>
 
 ## Stack
 
@@ -62,7 +71,7 @@ install in one line, start in milliseconds and explain themselves when they fail
 ![nginx](https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![systemd](https://img.shields.io/badge/systemd-111111?style=flat-square&logo=linux&logoColor=white)
 
-## Commit activity
+## Stats
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RUdolf1517/RUdolf1517/main/assets/commits-dark.svg">
@@ -70,11 +79,14 @@ install in one line, start in milliseconds and explain themselves when they fail
   <img src="https://raw.githubusercontent.com/RUdolf1517/RUdolf1517/main/assets/commits-dark.svg" alt="Commits over the last 12 months" width="100%">
 </picture>
 
-<div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=RUdolf1517&layout=compact&hide_border=true&hide=html,css,shell,tex&langs_count=6&theme=github_dark">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RUdolf1517&layout=compact&hide_border=true&hide=html,css,shell,tex&langs_count=6" alt="Top languages">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RUdolf1517/RUdolf1517/main/assets/langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RUdolf1517/RUdolf1517/main/assets/langs-light.svg">
+  <img src="https://raw.githubusercontent.com/RUdolf1517/RUdolf1517/main/assets/langs-dark.svg" alt="Code split by language across public repositories" width="100%">
 </picture>
-</div>
 
-<sub>Cards are generated in-repo: <a href="scripts/gen_banner.py">scripts/gen_banner.py</a> draws the banner, <a href="scripts/gen_stats.py">scripts/gen_stats.py</a> pulls the commit numbers from the GitHub GraphQL API and is refreshed every Monday by a scheduled workflow — so the figures are as of the last run, not a live counter.</sub>
+<sub>Everything on this page is generated in-repo and has no third-party dependency:
+<a href="scripts/gen_banner.py">gen_banner.py</a> draws the banner,
+<a href="scripts/gen_stats.py">gen_stats.py</a> and <a href="scripts/gen_langs.py">gen_langs.py</a>
+pull numbers from the GitHub GraphQL API, and a weekly workflow commits the refreshed cards.
+Figures are as of the last run, not a live counter.</sub>
