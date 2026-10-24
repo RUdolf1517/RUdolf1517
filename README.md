@@ -22,12 +22,50 @@ install in one line, start in milliseconds and explain themselves when they fail
 
 | Project | What it is | Built with |
 | :--- | :--- | :--- |
-| **[tummler](https://github.com/RUdolf1517/tummler)** | One CLI that mixes any file into any format — images, audio, video, documents, spreadsheets, archives. Format last: `tummler photo.png webp`. Native builds for macOS, Linux and Windows, plus Homebrew, apt, dnf and winget packages. | `Rust` `clap` `image` `ffmpeg` |
+| **[tummler](https://github.com/RUdolf1517/tummler)** <br><sub>Yiddish: *the one who stirs things up*</sub> | One CLI that mixes any file into any format — images, audio, video, documents, spreadsheets, archives. Format last: `tummler photo.png webp`. Native builds for macOS, Linux and Windows, plus Homebrew, apt, dnf and winget packages. | `Rust` `clap` `image` `ffmpeg` |
 | **[KOMP](https://github.com/RUdolf1517/KOMP)** | Offline RU/EN voice assistant that answers to «комп»: TOML plugins and scenarios, local cloned-voice TTS, optional LM Studio fallback. A daemon with an SSE/WebSocket API and a Tauri desktop app on top. | `Rust` `Tokio` `axum` `Tauri` `Vosk` |
 | **[schematoz-bulboz.org](https://github.com/RUdolf1517/schematoz-bulboz.org)** | Kombucha tamagotchi: grow a scoby, catch mutations, play mini-games, trade on the market. Async Flask on ASGI, ~100 tests against a real PostgreSQL, one-command production deploy. | `Python` `Flask` `SQLAlchemy` `PostgreSQL` `Redis` |
 | **[KremleXYZ-Detect](https://github.com/RUdolf1517/KremleXYZ-Detect)** | A captcha that keeps Yandex Browser traffic out, asking ЕГЭ questions instead. Drop-in package for Flask, Django and FastAPI, plus a React widget. | `Python` `TypeScript` `React` |
 
 <sub>Also: **[pi-clock](https://github.com/RUdolf1517/pi-clock)** — a terminal clock that shows the time as fractions of π.</sub>
+
+## A Yiddish note
+
+The name of my main tool is Yiddish. **tummler** (טומלער) is *the one who stirs things up* —
+in the Catskills resorts that was a job: the person who introduced the guests, warmed up the
+room and kept the evening alive before the show. The verb behind it, *tummeln*, means to bustle
+and make noise. A file converter does the same thing to formats, and there is a quieter echo in
+*tumbler*, the mixing glass.
+
+| Word | What it means | Where it shows up |
+| :--- | :--- | :--- |
+| **mentsh** (מענטש) | a decent, upright person — "be a mentsh" | What I want from software: does the job, explains itself, doesn't waste your time |
+| **tummler** (טומלער) | the one who stirs things up, the MC of the room | [tummler](https://github.com/RUdolf1517/tummler), the CLI |
+| **chutzpah** (חוצפה) | nerve, gall — audacity with a straight face | [KremleXYZ-Detect](https://github.com/RUdolf1517/KremleXYZ-Detect): a captcha that hands Yandex Browser users an ЕГЭ maths problem |
+
+> דער מענטש טראַכט און גאָט לאַכט
+>
+> *Der mentsh trakht un Got lakht* — a person plans, and God laughs.
+
+The most honest motto there is for someone who ships software: you write the roadmap, the
+compiler has other ideas. You keep planning anyway — the laughter is part of the deal.
+
+The name is not decoration. The CLI explains it itself:
+
+```console
+$ tummler -i
+tummler v0.4.0 — טומלער
+
+Yiddish tummler (טומלער): "the one who stirs things up."
+In the Catskills resorts the tummler mixed the guests —
+introduced them, got the room going, kept the night alive.
+Also a nod to tumbler, the mixing glass.
+
+This CLI does the same to files: mix any format into any other.
+```
+
+One rule I took from all of this: a tool should introduce itself — what it is, where the name
+comes from, what it will do to your files — before it touches anything.
 
 ## Stack
 
@@ -77,10 +115,10 @@ install in one line, start in milliseconds and explain themselves when they fail
 </picture>
 </div>
 
-<sub>The card is generated from the GitHub GraphQL API by <a href="scripts/gen_stats.py">scripts/gen_stats.py</a> and refreshed every Monday by a scheduled workflow — numbers are as of the last run, not a live counter.</sub>
+<sub>Cards are generated in-repo: <a href="scripts/gen_banner.py">scripts/gen_banner.py</a> draws the banner, <a href="scripts/gen_stats.py">scripts/gen_stats.py</a> pulls the commit numbers from the GitHub GraphQL API and is refreshed every Monday by a scheduled workflow — so the figures are as of the last run, not a live counter.</sub>
 
 ---
 
 <div align="center">
-<sub><b>tummler</b> is Yiddish for <i>the one who stirs things up</i> — which is most of what a good tool does.</sub>
+<sub><b>tummler</b> (טומלער) is Yiddish for <i>the one who stirs things up</i> — a mentsh with a mixing glass.</sub>
 </div>
