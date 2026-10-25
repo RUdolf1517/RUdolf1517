@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-labelledby="stitle">
-  <title id="stitle">Commit activity for RUdolf1517: 208 commits and 31 pull requests over the last 12 months</title>
+  <title id="stitle">Commit activity for RUdolf1517: 363 commits and 78 pull requests over the last 12 months</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0A0E15"/><stop offset="1" stop-color="#0C1220"/>
@@ -25,17 +25,17 @@
     <ellipse cx="960" cy="240" rx="300" ry="180" fill="url(#glowB)"/>
 
     <text x="56" y="46" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="3.2" fill="#F0A87B">COMMITS &#183; LAST 12 MONTHS</text>
-    <text x="56" y="132" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#FFFFFF">208</text>
+    <text x="56" y="132" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#FFFFFF">363</text>
     <text x="57" y="152" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" letter-spacing="1.7" fill="#5C6B7F">COMMITS</text>
-    <text x="224" y="132" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#FFFFFF">31</text>
+    <text x="224" y="132" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#FFFFFF">78</text>
     <text x="225" y="152" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" letter-spacing="1.7" fill="#5C6B7F">PULL REQUESTS</text>
-    <text x="392" y="132" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#FFFFFF">6</text>
+    <text x="392" y="132" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#FFFFFF">7</text>
     <text x="393" y="152" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" letter-spacing="1.7" fill="#5C6B7F">REPOSITORIES</text>
     <path d="M212 74 v82" stroke="#1D2837" stroke-width="1"/>
     <path d="M380 74 v82" stroke="#1D2837" stroke-width="1"/>
-    <text x="56" y="190" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#7C8CA1">17 active days  ·  longest streak 4 d  ·  busiest day 49 (20 Oct)</text>
-    <text x="56" y="212" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#7C8CA1">most active: tummler — 104 commits</text>
-    <text x="56" y="236" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#5C6B7F">updated 2026-10-24</text>
+    <text x="56" y="190" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#7C8CA1">18 active days  ·  longest streak 4 d  ·  busiest day 156 (24 Oct)</text>
+    <text x="56" y="212" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#7C8CA1">most active: tzim — 104 commits</text>
+    <text x="56" y="236" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#5C6B7F">updated 2026-10-25</text>
 
     <text x="560" y="46" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" letter-spacing="2.6" fill="#5C6B7F">COMMIT ACTIVITY</text>
     <text x="944" y="46" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#5C6B7F">Nov 2025 → Oct 2026</text>
@@ -60,11 +60,11 @@
       <text x="833.9" y="203" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#5C6B7F">Jul</text>
       <rect x="854.8" y="183.5" width="23.8" height="2.5" rx="1.2" fill="#222F40"><title>0 commits · August 2026</title></rect>
       <text x="866.6" y="203" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#5C6B7F">Aug</text>
-      <rect x="887.5" y="161.3" width="23.8" height="24.7" rx="3.0" fill="#33465F"><title>41 commits · September 2026</title></rect>
-      <text x="899.4" y="153.3" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#7C8CA1">41</text>
+      <rect x="887.5" y="173.2" width="23.8" height="12.8" rx="3.0" fill="#33465F"><title>41 commits · September 2026</title></rect>
+      <text x="899.4" y="165.2" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#7C8CA1">41</text>
       <text x="899.4" y="203" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#5C6B7F">Sep</text>
-      <rect x="920.2" y="86.0" width="23.8" height="100.0" rx="3.0" fill="#F0A87B"><title>166 commits · October 2026</title></rect>
-      <text x="932.1" y="78.0" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#7C8CA1">166</text>
+      <rect x="920.2" y="86.0" width="23.8" height="100.0" rx="3.0" fill="#F0A87B"><title>321 commits · October 2026</title></rect>
+      <text x="932.1" y="78.0" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#7C8CA1">321</text>
       <text x="932.1" y="203" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#5C6B7F">Oct</text>
     <path d="M560 186.5 h384" stroke="#1D2837" stroke-width="1"/>
     <text x="944" y="232" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#5C6B7F">commits per month</text>
