@@ -12,8 +12,8 @@
 
 </div>
 
-**Rust & Python.** Small tools with sharp edges: file converters, an offline voice
-assistant, web services that stay boring under load. The kind of programs that
+**Rust & Python.** Small tools with sharp edges: file converters and optimizers, an
+offline voice assistant, web services that stay boring under load. The kind of programs that
 install in one line, start in milliseconds and explain themselves when they fail.
 
 ---
@@ -23,6 +23,7 @@ install in one line, start in milliseconds and explain themselves when they fail
 | Project | What it is | Built with |
 | :--- | :--- | :--- |
 | **[tummler](https://github.com/RUdolf1517/tummler)** | One CLI that mixes any file into any format — images, audio, video, documents, spreadsheets, archives. Format last: `tummler photo.png webp`. Native builds for macOS, Linux and Windows, plus Homebrew, apt, dnf and winget packages. | `Rust` `clap` `image` `ffmpeg` |
+| **[tzim](https://github.com/RUdolf1517/tzim)** | Lossless optimizer for PNG, JPEG, TIFF, gzip, ZIP, ICO/CUR and zlib. A candidate replaces a file only if an independent decoder verifies it against a written per-format contract and it is strictly smaller — otherwise the original stays byte-for-byte, with the reason. One static binary, no C, no config, no telemetry. | `Rust` `flate2` `zopfli` `png` |
 | **[KOMP](https://github.com/RUdolf1517/KOMP)** | Offline RU/EN voice assistant that answers to «комп»: TOML plugins and scenarios, local cloned-voice TTS, optional LM Studio fallback. A daemon with an SSE/WebSocket API and a Tauri desktop app on top. | `Rust` `Tokio` `axum` `Tauri` `Vosk` |
 | **[schematoz-bulboz.org](https://github.com/RUdolf1517/schematoz-bulboz.org)** | Kombucha tamagotchi: grow a scoby, catch mutations, play mini-games, trade on the market. Async Flask on ASGI, ~100 tests against a real PostgreSQL, one-command production deploy. | `Python` `Flask` `SQLAlchemy` `PostgreSQL` `Redis` |
 | **[KremleXYZ-Detect](https://github.com/RUdolf1517/KremleXYZ-Detect)** | A captcha that keeps Yandex Browser traffic out, asking ЕГЭ questions instead. Drop-in package for Flask, Django and FastAPI, plus a React widget. | `Python` `TypeScript` `React` |
