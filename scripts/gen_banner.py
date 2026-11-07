@@ -51,7 +51,7 @@ def banner(name: str) -> str:
     t = THEMES[name]
     x = PX
     pills = []
-    for label in ("tummler", "tzim", "KOMP", "bulboz"):
+    for label in ("tummler", "tzim", "tafas", "bulboz"):
         svg, w = pill(x, PILL_Y, label, t)
         pills.append(svg)
         x += w + 9
@@ -61,8 +61,8 @@ def banner(name: str) -> str:
         (f'<tspan fill="{t["term_green"]}">12 files · 48 MB → 11 MB</tspan> <tspan fill="{t["term_muted"]}">(−77%)</tspan>', 85),
         (f'<tspan fill="{t["term_amber"]}">$</tspan> <tspan fill="{t["term_text"]}">tzim ./photos -r</tspan>', 112),
         (f'<tspan fill="{t["term_green"]}">9 optimized</tspan> <tspan fill="{t["term_muted"]}">·</tspan> <tspan fill="{t["term_text"]}">5.24 MiB saved</tspan> <tspan fill="{t["term_muted"]}">· 3 optimal</tspan>', 133),
-        (f'<tspan fill="{t["term_amber"]}">$</tspan> <tspan fill="{t["term_text"]}">komp --listen</tspan>', 160),
-        (f'<tspan fill="{t["term_muted"]}">wake word</tspan> <tspan fill="{t["term_text"]}">«комп»</tspan>  <tspan fill="{t["term_green"]}">●</tspan> <tspan fill="{t["term_muted"]}">ready</tspan>', 181),
+        (f'<tspan fill="{t["term_amber"]}">$</tspan> <tspan fill="{t["term_text"]}">tafas https://youtu.be/aqz-KE-bpKQ</tspan>', 160),
+        (f'<tspan fill="{t["term_text"]}">Big Buck Bunny.mp4</tspan> <tspan fill="{t["term_muted"]}">·</tspan> <tspan fill="{t["term_green"]}">no re-encode</tspan>', 181),
     ]
     term_lines = "\n".join(
         f'      <text x="{TX + 24}" y="{TY + dy}" font-family="{MONO}" font-size="12.5" xml:space="preserve" '
@@ -72,7 +72,7 @@ def banner(name: str) -> str:
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-labelledby="t d">
   <title id="t">Rudolf Zinovev — systems and web developer</title>
-  <desc id="d">Banner with a Yiddish proverb — a person plans, and God laughs — and a terminal demoing the tummler converter CLI and the KOMP voice assistant.</desc>
+  <desc id="d">Banner with a Yiddish proverb — a person plans, and God laughs — and a terminal demoing the tummler converter CLI and the tafas video capture CLI.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="{t['bg0']}"/><stop offset="1" stop-color="{t['bg1']}"/>
@@ -132,7 +132,7 @@ def banner(name: str) -> str:
     <circle cx="{TX + 55}" cy="{TY + 16.5}" r="4" fill="#28C840" opacity="0.92"/>
     <text x="{TX + TW - 18}" y="{TY + 20}" text-anchor="end" font-family="{MONO}" font-size="10.5" fill="{t['term_muted']}">zsh</text>
 {term_lines}
-    <rect class="caret" x="{TX + 215}" y="{TY + 175}" width="6" height="13.5" fill="{t['term_amber']}" opacity="0.9"/>
+    <rect class="caret" x="{TX + 275}" y="{TY + 170}" width="6" height="13.5" fill="{t['term_amber']}" opacity="0.9"/>
   </g>
   <rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="22" fill="none" stroke="{t['border']}" stroke-width="1"/>
 </svg>
