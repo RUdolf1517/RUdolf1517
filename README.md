@@ -80,5 +80,5 @@ install in one line, start in milliseconds and explain themselves when they fail
 <sub>Everything on this page is generated in-repo and has no third-party dependency:
 <a href="scripts/gen_banner.py">gen_banner.py</a> draws the banner,
 <a href="scripts/gen_stats.py">gen_stats.py</a> and <a href="scripts/gen_langs.py">gen_langs.py</a>
-pull numbers from the GitHub GraphQL API, and a weekly workflow commits the refreshed cards.
+pull numbers from the GitHub GraphQL API, and a workflow re-runs every six hours and commits the cards when something moved.
 Figures are as of the last run, not a live counter.</sub>
