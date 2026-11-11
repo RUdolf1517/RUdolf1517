@@ -34,9 +34,9 @@ run() {
 REPOS=(
   "mivta|Telegram bot that translates your own outgoing messages in place — inline mode and Secretary mode, no userbot|telegram,bot,translation,python,tool"
   "tafas|YouTube, TikTok and X to one playable MP4 — no ffmpeg, no re-encoding|cli,rust,video,downloader,youtube"
-  "Morid|A GUI for command-line media downloaders — pre-alpha|gui,downloader,cpp,qt"
-  "MOBSORT|Interactive console demo of mobilization sort — step-by-step integer array sorting|rust,cli,sorting,algorithm,visualization"
-  "KOMP|Offline RU/EN voice assistant — wake word «комп», Tauri app and daemon (dormant)|rust,voice-assistant,tauri,offline,vosk"
+  "Morid|GUI for command-line media downloaders, rewritten in Rust — pre-alpha|gui,rust,slint,downloader,media"
+  "MOBSORT|Interactive console implementation of staged integer array sorting, with visualization and sound|rust,cli,sorting,algorithm,visualization"
+  "KOMP|Offline RU/EN voice assistant with wake phrase «комп» — Rust daemon and Tauri app|rust,voice-assistant,tauri,vosk,offline"
 )
 
 echo "Profile"
