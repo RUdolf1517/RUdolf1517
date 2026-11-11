@@ -29,20 +29,20 @@
       15 repos &#183; 5.9 MB of code
     </text>
 
-      <rect x="56.0" y="66" width="402.0" height="26" rx="4" fill="#F0A87B"><title>Rust — 46.2%</title></rect>
-      <rect x="461.0" y="66" width="319.7" height="26" rx="4" fill="#4F8DF7"><title>Python — 36.7%</title></rect>
-      <rect x="783.7" y="66" width="62.4" height="26" rx="4" fill="#E4C76C"><title>JavaScript — 7.2%</title></rect>
-      <rect x="849.1" y="66" width="20.7" height="26" rx="4" fill="#6EE7B7"><title>Shell — 2.4%</title></rect>
-      <rect x="872.8" y="66" width="19.5" height="26" rx="4" fill="#C97B5A"><title>HTML — 2.2%</title></rect>
-      <rect x="895.3" y="66" width="19.1" height="26" rx="4" fill="#6C8EBF"><title>PowerShell — 2.2%</title></rect>
-      <rect x="917.4" y="66" width="26.6" height="26" rx="4" fill="#8B949E"><title>Other — 3.1%</title></rect>
-      <circle cx="61.0" cy="132.0" r="5" fill="#F0A87B"/><text x="75.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">Rust</text><text x="252.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">46.2%</text>
-      <circle cx="283.0" cy="132.0" r="5" fill="#4F8DF7"/><text x="297.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">Python</text><text x="474.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">36.7%</text>
-      <circle cx="505.0" cy="132.0" r="5" fill="#E4C76C"/><text x="519.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">JavaScript</text><text x="696.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">7.2%</text>
+      <rect x="56.0" y="66" width="399.2" height="26" rx="4" fill="#F0A87B"><title>Rust — 45.9%</title></rect>
+      <rect x="458.2" y="66" width="323.1" height="26" rx="4" fill="#4F8DF7"><title>Python — 37.1%</title></rect>
+      <rect x="784.3" y="66" width="61.9" height="26" rx="4" fill="#E4C76C"><title>JavaScript — 7.1%</title></rect>
+      <rect x="849.3" y="66" width="21.0" height="26" rx="4" fill="#6EE7B7"><title>Shell — 2.4%</title></rect>
+      <rect x="873.2" y="66" width="19.4" height="26" rx="4" fill="#C97B5A"><title>HTML — 2.2%</title></rect>
+      <rect x="895.6" y="66" width="18.9" height="26" rx="4" fill="#6C8EBF"><title>PowerShell — 2.2%</title></rect>
+      <rect x="917.6" y="66" width="26.4" height="26" rx="4" fill="#8B949E"><title>Other — 3.0%</title></rect>
+      <circle cx="61.0" cy="132.0" r="5" fill="#F0A87B"/><text x="75.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">Rust</text><text x="252.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">45.9%</text>
+      <circle cx="283.0" cy="132.0" r="5" fill="#4F8DF7"/><text x="297.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">Python</text><text x="474.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">37.1%</text>
+      <circle cx="505.0" cy="132.0" r="5" fill="#E4C76C"/><text x="519.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">JavaScript</text><text x="696.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">7.1%</text>
       <circle cx="727.0" cy="132.0" r="5" fill="#6EE7B7"/><text x="741.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">Shell</text><text x="918.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">2.4%</text>
       <circle cx="61.0" cy="166.0" r="5" fill="#C97B5A"/><text x="75.0" y="170" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">HTML</text><text x="252.0" y="170" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">2.2%</text>
       <circle cx="283.0" cy="166.0" r="5" fill="#6C8EBF"/><text x="297.0" y="170" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">PowerShell</text><text x="474.0" y="170" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">2.2%</text>
-      <circle cx="505.0" cy="166.0" r="5" fill="#8B949E"/><text x="519.0" y="170" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">Other</text><text x="696.0" y="170" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">3.1%</text>
+      <circle cx="505.0" cy="166.0" r="5" fill="#8B949E"/><text x="519.0" y="170" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">Other</text><text x="696.0" y="170" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">3.0%</text>
 
     <path d="M56 196 h888" stroke="#1D2837" stroke-width="1"/>
     <text x="56" y="216" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#5C6B7F">bytes per language, from the GitHub API &#183; top 6 + other</text>
