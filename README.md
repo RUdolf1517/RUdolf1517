@@ -12,9 +12,9 @@
 
 </div>
 
-**Rust & Python.** Small tools with sharp edges: file converters and optimizers, an
-offline voice assistant, web services that stay boring under load. The kind of programs that
-install in one line, start in milliseconds and explain themselves when they fail.
+**Rust & Python.** Small tools with sharp edges: file converters and optimizers, web
+services that stay boring under load. The kind of programs that install in one line, start in
+milliseconds and explain themselves when they fail.
 
 ---
 
