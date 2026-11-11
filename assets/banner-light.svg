@@ -62,9 +62,9 @@
       <circle cx="259.1" cy="278.0" r="3" fill="#F0A87B"/>
       <text x="292.9" y="282.1" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.0" fill="#33445B">tafas</text>
     </g>    <g>
-      <rect x="335.7" y="264" width="89.5" height="28" rx="14.0" fill="#FFFFFF" stroke="#DCE4EF" stroke-width="1"/>
+      <rect x="335.7" y="264" width="168.7" height="28" rx="14.0" fill="#FFFFFF" stroke="#DCE4EF" stroke-width="1"/>
       <circle cx="349.7" cy="278.0" r="3" fill="#F0A87B"/>
-      <text x="387.5" y="282.1" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.0" fill="#33445B">bulboz</text>
+      <text x="427.1" y="282.1" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.0" fill="#33445B">KremleXYZ-Detect</text>
     </g>
 
     <g filter="url(#lift)">

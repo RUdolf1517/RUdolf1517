@@ -51,7 +51,8 @@ def banner(name: str) -> str:
     t = THEMES[name]
     x = PX
     pills = []
-    for label in ("tummler", "tzim", "tafas", "bulboz"):
+    # Same four projects as the table in README.md, in the same order.
+    for label in ("tummler", "tzim", "tafas", "KremleXYZ-Detect"):
         svg, w = pill(x, PILL_Y, label, t)
         pills.append(svg)
         x += w + 9
