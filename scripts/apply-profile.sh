@@ -60,9 +60,10 @@ for entry in "${REPOS[@]}"; do
 done
 
 echo
-echo "Pinned repositories — set by hand at https://github.com/$LOGIN"
-echo "  1 tzim   2 tafas   3 mivta   4 tummler"
-echo "  (pi-clock and KremleXYZ-Detect come off: one is a toy, the other is old)"
+echo "Pinned repositories — set by hand at https://github.com/$LOGIN (Customize pins)"
+echo "  tummler, tzim, tafas, KremleXYZ-Detect, mivta"
+echo "  The README table shows exactly these five, so pin exactly these five;"
+echo "  pi-clock comes off — it is the only pinned repository the table never mentions."
 
 if (( ! DRY_RUN )); then
   echo
