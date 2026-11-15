@@ -30,14 +30,14 @@
     </text>
 
       <rect x="56.0" y="66" width="385.5" height="26" rx="4" fill="#F0A87B"><title>Rust — 44.3%</title></rect>
-      <rect x="444.5" y="66" width="347.5" height="26" rx="4" fill="#4F8DF7"><title>Python — 39.9%</title></rect>
-      <rect x="795.0" y="66" width="56.9" height="26" rx="4" fill="#E4C76C"><title>JavaScript — 6.5%</title></rect>
-      <rect x="854.9" y="66" width="20.5" height="26" rx="4" fill="#6EE7B7"><title>Shell — 2.4%</title></rect>
-      <rect x="878.5" y="66" width="17.8" height="26" rx="4" fill="#C97B5A"><title>HTML — 2.0%</title></rect>
-      <rect x="899.3" y="66" width="17.4" height="26" rx="4" fill="#6C8EBF"><title>PowerShell — 2.0%</title></rect>
-      <rect x="919.7" y="66" width="24.3" height="26" rx="4" fill="#8B949E"><title>Other — 2.8%</title></rect>
+      <rect x="444.5" y="66" width="348.1" height="26" rx="4" fill="#4F8DF7"><title>Python — 40.0%</title></rect>
+      <rect x="795.5" y="66" width="56.7" height="26" rx="4" fill="#E4C76C"><title>JavaScript — 6.5%</title></rect>
+      <rect x="855.2" y="66" width="20.4" height="26" rx="4" fill="#6EE7B7"><title>Shell — 2.4%</title></rect>
+      <rect x="878.7" y="66" width="17.7" height="26" rx="4" fill="#C97B5A"><title>HTML — 2.0%</title></rect>
+      <rect x="899.4" y="66" width="17.3" height="26" rx="4" fill="#6C8EBF"><title>PowerShell — 2.0%</title></rect>
+      <rect x="919.8" y="66" width="24.2" height="26" rx="4" fill="#8B949E"><title>Other — 2.8%</title></rect>
       <circle cx="61.0" cy="132.0" r="5" fill="#F0A87B"/><text x="75.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#33445B">Rust</text><text x="252.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#6B7C92">44.3%</text>
-      <circle cx="283.0" cy="132.0" r="5" fill="#4F8DF7"/><text x="297.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#33445B">Python</text><text x="474.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#6B7C92">39.9%</text>
+      <circle cx="283.0" cy="132.0" r="5" fill="#4F8DF7"/><text x="297.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#33445B">Python</text><text x="474.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#6B7C92">40.0%</text>
       <circle cx="505.0" cy="132.0" r="5" fill="#E4C76C"/><text x="519.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#33445B">JavaScript</text><text x="696.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#6B7C92">6.5%</text>
       <circle cx="727.0" cy="132.0" r="5" fill="#6EE7B7"/><text x="741.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#33445B">Shell</text><text x="918.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#6B7C92">2.4%</text>
       <circle cx="61.0" cy="166.0" r="5" fill="#C97B5A"/><text x="75.0" y="170" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#33445B">HTML</text><text x="252.0" y="170" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#6B7C92">2.0%</text>
