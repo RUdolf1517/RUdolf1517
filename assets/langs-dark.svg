@@ -29,13 +29,13 @@
       16 repos &#183; 7.5 MB of code
     </text>
 
-      <rect x="56.0" y="66" width="403.9" height="26" rx="4" fill="#4F8DF7"><title>Python — 46.4%</title></rect>
-      <rect x="462.9" y="66" width="333.0" height="26" rx="4" fill="#F0A87B"><title>Rust — 38.3%</title></rect>
-      <rect x="798.9" y="66" width="53.7" height="26" rx="4" fill="#E4C76C"><title>JavaScript — 6.2%</title></rect>
-      <rect x="855.5" y="66" width="26.1" height="26" rx="4" fill="#C97B5A"><title>HTML — 3.0%</title></rect>
+      <rect x="56.0" y="66" width="403.6" height="26" rx="4" fill="#4F8DF7"><title>Python — 46.4%</title></rect>
+      <rect x="462.6" y="66" width="333.3" height="26" rx="4" fill="#F0A87B"><title>Rust — 38.3%</title></rect>
+      <rect x="798.9" y="66" width="53.6" height="26" rx="4" fill="#E4C76C"><title>JavaScript — 6.2%</title></rect>
+      <rect x="855.6" y="66" width="26.1" height="26" rx="4" fill="#C97B5A"><title>HTML — 3.0%</title></rect>
       <rect x="884.6" y="66" width="17.6" height="26" rx="4" fill="#6EE7B7"><title>Shell — 2.0%</title></rect>
       <rect x="905.2" y="66" width="14.9" height="26" rx="4" fill="#6C8EBF"><title>PowerShell — 1.7%</title></rect>
-      <rect x="923.1" y="66" width="20.9" height="26" rx="4" fill="#8B949E"><title>Other — 2.4%</title></rect>
+      <rect x="923.2" y="66" width="20.8" height="26" rx="4" fill="#8B949E"><title>Other — 2.4%</title></rect>
       <circle cx="61.0" cy="132.0" r="5" fill="#4F8DF7"/><text x="75.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">Python</text><text x="252.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">46.4%</text>
       <circle cx="283.0" cy="132.0" r="5" fill="#F0A87B"/><text x="297.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">Rust</text><text x="474.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">38.3%</text>
       <circle cx="505.0" cy="132.0" r="5" fill="#E4C76C"/><text x="519.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C3D2E4">JavaScript</text><text x="696.0" y="136" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7C8CA1">6.2%</text>
